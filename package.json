@@ -7,8 +7,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm start\" \"npm run client\" ",
-    "build": "npm run build --prefix client && node server.js"
+    "dev": "concurrently \"npm start\" \"npm run client\" "
   },
   "keywords": [],
   "author": "Shantanu kumar",
